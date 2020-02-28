@@ -5,7 +5,6 @@ GitOpsBastion builds one or mor GitOpsBastionServers that are deployed into hybr
 Once deployed, GitOpsBastionServer(s) respond to Git Pull Request events and perform whatever actions are 
 required to bring the state of a particular deployment in line with the latest content of the source repository.
 
-
   Repository + GitOpsBastion => Deployed System (or Cluster)
     Running on End user owned host(s)
     Holds software licenses
